@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='第二學期.html'>第二學期</a><ul class='dropdown'><li class='has-children'><a href='Week1~5.html'>Week1~5</a><ul class='dropdown'><li><a href='第一次開直播討論及分配工作.html'>第一次開直播討論及分配工作</a></li></ul><li class='has-children'><a href='week6~9.html'>week6~9</a><ul class='dropdown'><li><a href='第二次開直播討論及分配工作+翻譯.html'>第二次開直播討論及分配工作+翻譯</a></li></ul><li class='has-children'><a href='week10~15.html'>week10~15</a><ul class='dropdown'><li><a href='第三次開會紀錄+翻譯.html'>第三次開會紀錄+翻譯</a><li><a href='第四次直播開會.html'>第四次直播開會</a><li><a href='第五次直播開會.html'>第五次直播開會</a></li></li></ul></ul><li><a href='直播開會紀錄.html'>直播開會紀錄</a></li>
+                     <li class='has-children'><a href='第二學期.html'>第二學期</a><ul class='dropdown'><li class='has-children'><a href='Week1~5.html'>Week1~5</a><ul class='dropdown'><li><a href='第一次開直播討論及分配工作.html'>第一次開直播討論及分配工作</a></li></ul><li class='has-children'><a href='week6~9.html'>week6~9</a><ul class='dropdown'><li><a href='第二次開直播討論及分配工作+翻譯.html'>第二次開直播討論及分配工作+翻譯</a></li></ul><li class='has-children'><a href='week10~15.html'>week10~15</a><ul class='dropdown'><li><a href='第三次開會紀錄+翻譯.html'>第三次開會紀錄+翻譯</a><li><a href='第四次直播開會.html'>第四次直播開會</a><li><a href='第五次直播開會.html'>第五次直播開會</a><li><a href='第六次直播開會.html'>第六次直播開會</a></li></li></ul></ul><li><a href='直播開會紀錄.html'>直播開會紀錄</a></li>
                       </ul>
                 </nav>
               </div>
@@ -198,6 +198,24 @@ img.add_border {
 <p>40723222<br/>40723237<br/>40723244<br/>----<br/>group:3</p>
 <p>40723239<br/>40723203<br/>40723207<br/>----<br/>group:4</p>
 <p>40623115<br/>40723250<br/>40623144</p>
+<h4><span color="#0000ff"><b>ubnutu對外連線(ipv6)</b></span></h4>
+<p><span color="#0000ff">1.設定ipv6及主機網絡nat working</span></p>
+<p><span color="#0000ff">2.開啟ubnutu後開啟Lxtermialermial並且輸入cd /etc</span></p>
+<p><span color="#0000ff">3.按照路徑進入cd apt &gt; cd apt.conf.d</span></p>
+<p><span color="#0000ff">4.pt &gt; cd apt.conf.d</span></p>
+<p>5.輸入sudo vi proxy.conf輸入密碼kmol202011並且以i鍵進入編輯模式</p>
+<p>6.輸入Acquire::http::proxy "http://[2001:288:6004:17::53]:3128";</p>
+<p>7.按下esc並且使用:wq來儲存，再用sudo apt update apt update來更新apt</p>
+<p>8.ifconfig&gt;sudo apt install net-tools，cd etc/netplan</p>
+<p>9.輸入sudo vi 00-installer-config.yaml並且按照影片中的方式更改縮排</p>
+<p>10.輸入ping6 2001:288:6004:17::254對外部網路測試是否可以連線</p>
+<p>11.新增埠號</p>
+<p>12.輸入ifconfig 來查詢在ipv6下的guest</p>
+<p>13.輸入sudo vi wsgi.py wsgi.py將近端的host更改成::</p>
+<p>14.輸入python3 wsgi.py</p>
+<p>15.用平常開啟近端的方式https://[::1]:18443若要從後門啟動的話加一個/alogin</p>
+<p>16.打開leo新增ttt檔案的上傳設定</p>
+<p>17.測試是否可以上傳</p>
 <p>week13</p>
 <p><span>隨機組員創建網站</span></p>
 <p><span>網站 : <a href="http://mde.tw/cdbw13-2/content/index.html">cdbw13-2</a></span></p>
