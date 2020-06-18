@@ -147,24 +147,32 @@
 <p>40723222<br/>40723237<br/>40723244<br/>----<br/>group:3</p>
 <p>40723239<br/>40723203<br/>40723207<br/>----<br/>group:4</p>
 <p>40623115<br/>40723250<br/>40623144</p>
-<h4><span color="#0000ff"><b>ubnutu對外連線(ipv6)</b></span></h4>
-<p><span color="#0000ff">1.設定ipv6及主機網絡nat working</span></p>
-<p><span color="#0000ff">2.開啟ubnutu後開啟Lxtermialermial並且輸入cd /etc</span></p>
-<p><span color="#0000ff">3.按照路徑進入cd apt &gt; cd apt.conf.d</span></p>
-<p><span color="#0000ff">4.pt &gt; cd apt.conf.d</span></p>
-<p>5.輸入sudo vi proxy.conf輸入密碼kmol202011並且以i鍵進入編輯模式</p>
-<p>6.輸入Acquire::http::proxy "http://[2001:288:6004:17::53]:3128";</p>
-<p>7.按下esc並且使用:wq來儲存，再用sudo apt update apt update來更新apt</p>
-<p>8.ifconfig&gt;sudo apt install net-tools，cd etc/netplan</p>
-<p>9.輸入sudo vi 00-installer-config.yaml並且按照影片中的方式更改縮排</p>
-<p>10.輸入ping6 2001:288:6004:17::254對外部網路測試是否可以連線</p>
+<p><span>ipv6對外連線(學校使用)</span></p>
+<p><span color="#0000ff">1.設定ipv6及主機網絡nat network</span></p>
+<p><span color="#0000ff">2.啟動ubnutu-&gt;開啟Lxtermialermial-&gt;輸入cd /etc</span></p>
+<p><span color="#0000ff">3.cd apt &gt; cd apt.conf.d</span></p>
+<p>4.輸入sudo vi proxy.conf輸入密碼kmol2020-&gt;以i鍵進入編輯模式</p>
+<p>5.輸入Acquire::http::proxy "http://[2001:288:6004:17::<span>53</span>]:3128";</p>
+<p>6.esc-&gt;輸入:wq儲存，再用sudo apt<span> </span><span>update</span> 來更新apt</p>
+<p>7.ifconfig-&gt;sudo apt install net-tools，cd etc/netplan</p>
+<p>8.輸入sudo vi 00-installer-config.yaml並且按照以下方式編排</p>
+<p>9.輸入sudo netplan apply來更新</p>
+<p>10.ping6 2001:288:6004:17::254對外部網路測試是否可以連線</p>
 <p>11.新增埠號</p>
-<p>12.輸入ifconfig 來查詢在ipv6下的guest</p>
-<p>13.輸入sudo vi wsgi.py wsgi.py將近端的host更改成::</p>
-<p>14.輸入python3 wsgi.py</p>
-<p>15.用平常開啟近端的方式https://[::1]:18443若要從後門啟動的話加一個/alogin</p>
-<p>16.打開leo新增ttt檔案的上傳設定</p>
-<p>17.測試是否可以上傳</p>
+<p>12.輸入ifconfig 來查詢在ipv6下的guest，進入cd2020pj1-&gt;git config --global --add http.proxy <span>[2001:288:6004:17::53]:3128</span></p>
+<p>13.git pull更新，tmp-&gt;sudo vi oauth_scrum.txt</p>
+<p>14.輸入sudo vi wsgi.py wsgi.py將近端的host更改成::</p>
+<p>15.輸入python3 wsgi.py</p>
+<p>16.https://[::1]:18443若要從後門啟動的話加一個/alogin</p>
+<p>17.打開leo新增ttt檔案的上傳設定</p>
+<p>18.測試是否可以上傳</p>
+<p><span>ipv6下環境遠端連線(學校使用)</span></p>
+<p><span></span>(要先完成ipv6對外連線)</p>
+<p>依照上圖設定ipv6</p>
+<p>進入cd2020pj1-&gt;git pull-&gt;cd docs-&gt;cd cmsimde</p>
+<p>vi wsgi.py-&gt;i編輯-&gt;改成自己ip-&gt;按esc-&gt;:wq儲存</p>
+<p>開putty(同設定ipv4)</p>
+<p>網址:https://[ipv6位址]:17443(要關proxy)</p>
 <p>week13</p>
 <p><span>隨機組員創建網站</span></p>
 <p><span>網站 : <a href="http://mde.tw/cdbw13-2/content/index.html">cdbw13-2</a></span></p>
@@ -181,6 +189,10 @@
 <p><span>40723230</span><br/><span>40723215</span><br/><span>40723213</span><br/><span>40723249</span><br/><span>40523253</span><br/><span>40723222</span><br/><span>40723218</span><br/><span>40723209</span><br/><span>40723219</span><br/><span>40723210</span><br/><span>40723250</span><br/><span>40623251</span></p>
 <p><span>網站 : <a href="http://mde.tw/cdbw14-2/content/index.html">http://mde.tw/cdbw14-2/content/index.html</a></span></p>
 <p><span>倉儲 : <a href="https://github.com/mdecourse/cdbw14-2">https://github.com/mdecourse/cdbw14-2</a></span></p>
+<p>week15</p>
+<p><span>隨機組員創建網站</span></p>
+<p><span>小組網站 : <a href="http://mde.tw/cdbw15-1/content/index.html">http://mde.tw/cdbw15-1/content/index.html</a></span></p>
+<p><span>小組倉儲 :<a href="https://github.com/mdecourse/cdbw15-1">https://github.com/mdecourse/cdbw15-1</a></span></p>
 <h3>第三次開會紀錄+翻譯</h3>
 <p>影片 :</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/6oQhXIpeWYI" width="560"></iframe></p>
@@ -467,6 +479,8 @@
 <p><span></span></p>
 <h3>第七次直播開會</h3>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/N6jCSwv2eI0" width="560"></iframe></p>
+<h2>WEEK16+期末報告總結</h2>
+<p></p>
 <h1>直播開會紀錄</h1>
 <p><a href="https://s40723250.github.io/cd2020/content/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%96%8B%E7%9B%B4%E6%92%AD%E8%A8%8E%E8%AB%96%E5%8F%8A%E5%88%86%E9%85%8D%E5%B7%A5%E4%BD%9C.html">第一次開直播</a></p>
 <p><a href="https://s40723250.github.io/cd2020/content/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E9%96%8B%E7%9B%B4%E6%92%AD%E8%A8%8E%E8%AB%96%E5%8F%8A%E5%88%86%E9%85%8D%E5%B7%A5%E4%BD%9C+%E7%BF%BB%E8%AD%AF.html">第二次開直播討論及分配工作+翻譯</a></p>
