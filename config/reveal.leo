@@ -371,12 +371,12 @@ https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3
 
 						
 </t>
-<t tx="leo.20200620152426.2">## Assignment 1
+<t tx="leo.20200620152426.2">## Week4
 
-### 亂數分組
+### Assignment 1
 
 &lt;small&gt;
-Assignment 1(https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf)
+Assignment 1[https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf]
 
 </t>
 <t tx="leo.20200620152429.1">&lt;section data-markdown&gt;
