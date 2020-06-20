@@ -376,7 +376,7 @@ https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3
 ### Assignment 1
 
 &lt;small&gt;
-Assignment 1[#https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf]
+Assignment 1https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf
 
 </t>
 <t tx="leo.20200620152429.1">&lt;section data-markdown&gt;
