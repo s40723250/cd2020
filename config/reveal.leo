@@ -69,7 +69,7 @@
 ### 影片
 
 &lt;small&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-6upw3dfawk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/oAjShXeCbaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 </t>
 <t tx="leo.20180902120523.2"></t>
@@ -325,8 +325,7 @@ https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3
 ### Assignment 2
 
 &lt;small&gt;
-心得(https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%202/Assignment%202.pdf)
-
+https://github.com/s40723250/cd2020/tree/master/downloads/Assignment%202
 </t>
 <t tx="leo.20200620152147.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -376,7 +375,7 @@ https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3
 ### Assignment 1
 
 &lt;small&gt;
-Assignment 1所學 [^https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf]
+https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf
 
 </t>
 <t tx="leo.20200620152429.1">&lt;section data-markdown&gt;
