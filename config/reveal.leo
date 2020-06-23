@@ -86,7 +86,7 @@
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+s40723250 reveal
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -273,7 +273,7 @@ vertical: body pane on the botton</t>
 ### Assignment3
 
 &lt;small&gt;
-https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3
+(翻譯+報告)[https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3]
 </t>
 <t tx="leo.20200620152138.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -325,7 +325,7 @@ https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3
 ### Assignment 2
 
 &lt;small&gt;
-https://github.com/s40723250/cd2020/tree/master/downloads/Assignment%202
+(翻譯+報告)[https://github.com/s40723250/cd2020/tree/master/downloads/Assignment%202]
 </t>
 <t tx="leo.20200620152147.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -375,7 +375,7 @@ https://github.com/s40723250/cd2020/tree/master/downloads/Assignment%202
 ### Assignment 1
 
 &lt;small&gt;
-https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf
+[所學](https://github.com/s40723250/cd2020/blob/master/downloads/Assignment%201.docx.pdf)
 
 </t>
 <t tx="leo.20200620152429.1">&lt;section data-markdown&gt;
