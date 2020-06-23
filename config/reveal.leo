@@ -273,7 +273,7 @@ vertical: body pane on the botton</t>
 ### Assignment3
 
 &lt;small&gt;
-(翻譯+報告)[https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3]
+[翻譯+報告](https://github.com/s40723250/cd2020/tree/master/downloads/Assignment3)
 </t>
 <t tx="leo.20200620152138.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -325,7 +325,7 @@ vertical: body pane on the botton</t>
 ### Assignment 2
 
 &lt;small&gt;
-(翻譯+報告)[https://github.com/s40723250/cd2020/tree/master/downloads/Assignment%202]
+[翻譯+報告](https://github.com/s40723250/cd2020/tree/master/downloads/Assignment%202)
 </t>
 <t tx="leo.20200620152147.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
