@@ -18,6 +18,9 @@
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
 <v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20200623202040.1"><vh>封面</vh>
+<v t="leo.20200623202040.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20200620152436.1"><vh>week1</vh>
 <v t="leo.20200620152436.2"><vh>封面投影片內容</vh></v>
 </v>
@@ -53,6 +56,9 @@
 </v>
 <v t="leo.20180902120523.9"><vh>期末報告總結</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200623202425.1"><vh>final report</vh>
+<v t="leo.20200623202425.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -429,6 +435,42 @@ vertical: body pane on the botton</t>
 
 &lt;small&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/j7HWT4OrD18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+</t>
+<t tx="leo.20200623202040.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623202040.2">## 虎尾科大機械設計工程系
+
+### s40723250協同簡報
+
+&lt;small&gt;
+[個人網站](https://s40723250.github.io/cd2020/content/index.html)
+[個人倉儲](https://github.com/s40723250/cd2020)
+
+
+</t>
+<t tx="leo.20200623202425.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623202425.2">## final report
+
+### [s40723250協同簡報](https://s40723250.github.io/cd2020/content/Final%20report.html)
+
+
 
 
 </t>
